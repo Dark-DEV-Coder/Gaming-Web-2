@@ -1,0 +1,103 @@
+.pbh{
+    width: 95%;
+    /* height: 100%; */
+    background-color: #E4E9F7;
+    /* background-color: red; */
+}
+
+.tieudepbh{
+    margin-top: 50px;
+    text-align: center;    
+}
+.tieudepbh div{
+    font-size: 30px;
+    font-weight: 700;
+}
+.timkiempbh{
+    margin-top: 40px;
+    margin-left: 2%;
+}
+#kieutimkiempbh{
+    margin-top: 10px;
+}
+.div1{
+   font-size: 18px;
+   text-align: center;
+   padding-top: 5px;
+}
+#hienpbh{
+    margin-top: 100px;
+}
+.bangpbh{
+    border: solid 1px rgb(82, 68, 68);
+    margin-left: 1%;
+}
+.bangpbh thead tr th{
+    text-align: center;
+}
+.tbpbh1{
+    width: 10%;
+}
+.tbpbh2{
+    width: 15%;
+}
+.tbpbh3{
+    width: 10%;
+}
+.tbpbh4{
+    width: 10%;
+}
+.tbpbh5{
+    width: 15%;
+}
+.tbpbh6{
+    width: 10%;
+}
+.suaxoapbh a{
+    font-size: 30px;
+}
+.bangpbh tbody tr .suaxoapbh{
+    text-align: center;
+    padding-top: 15px;
+}
+.bangpbh tbody tr .pbh1{
+    text-align: center;
+}
+.phantrangpbh{
+    text-align: center;
+    height: 50px;
+}
+.phantrangpbh1 div{
+    display:  inline-table;
+    margin-left: 1%;
+    border: solid 1px black;
+    width: 5%;
+}
+.phantrangpbh1 div:hover{
+    background-color: #0dcaf0;
+    cursor: pointer;
+}
+.pagemenuhide {
+    display: none !important;
+}
+#thempbh a{
+    text-decoration: none;
+    color: black;
+}
+.thempbh{
+    margin-top: 50px;
+}
+.div2{
+    padding-left: 3%;
+    font-size: 18px;
+}
+.div3{
+    margin-top: 10px;
+}
+.div4{
+    margin-top: 20px;
+}
+.div5{
+    margin-top: 40px;
+    text-align: center;
+}

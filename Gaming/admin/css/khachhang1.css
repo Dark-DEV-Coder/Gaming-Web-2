@@ -1,0 +1,103 @@
+.kh{
+    width: 95%;
+    /* height: 100%; */
+    background-color: #E4E9F7;
+    /* background-color: red; */
+}
+
+.tieudekh{
+    margin-top: 50px;
+    text-align: center;    
+}
+.tieudekh div{
+    font-size: 30px;
+    font-weight: 700;
+}
+.timkiemkh{
+    margin-top: 40px;
+    margin-left: 2%;
+}
+#kieutimkiemkh{
+    margin-top: 10px;
+}
+.div1{
+   font-size: 18px;
+   text-align: center;
+   padding-top: 5px;
+}
+#hienkh{
+    margin-top: 100px;
+}
+.bangkh{
+    border: solid 1px rgb(82, 68, 68);
+    margin-left: 1%;
+}
+.bangkh thead tr th{
+    text-align: center;
+}
+.tbkh1{
+    width: 20%;
+}
+.tbkh2{
+    width: 10%;
+}
+.tbkh3{
+    width: 10%;
+}
+.tbkh4{
+    width: 10%;
+}
+.tbkh5{
+    width: 15%;
+}
+.tbkh6{
+    width: 10%;
+}
+.suaxoakh a{
+    font-size: 30px;
+}
+.bangkh tbody tr .suaxoakh{
+    text-align: center;
+    padding-top: 15px;
+}
+.bangkh tbody tr .kh1{
+    text-align: center;
+}
+.phantrangkh{
+    text-align: center;
+    height: 50px;
+}
+.phantrangkh1 div{
+    display:  inline-table;
+    margin-left: 1%;
+    border: solid 1px black;
+    width: 5%;
+}
+.phantrangkh1 div:hover{
+    background-color: #0dcaf0;
+    cursor: pointer;
+}
+.pagemenuhide {
+    display: none !important;
+}
+#themkh a{
+    text-decoration: none;
+    color: black;
+}
+.themkh{
+    margin-top: 50px;
+}
+.div2{
+    padding-left: 3%;
+    font-size: 18px;
+}
+.div3{
+    margin-top: 10px;
+}
+.div4{
+    margin-top: 20px;
+}
+.div5{
+    margin-top: 40px;
+    text-align: center;
+}

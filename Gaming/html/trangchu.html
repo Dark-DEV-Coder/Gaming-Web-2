@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/Body.css" />
+    <link rel="stylesheet" href="./css/Trangchu.css" />
+    <link rel="stylesheet" href="./css/Detail_product.css" />
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- Font Awesome JS -->
+    <script language="javascript" type="text/javascript" defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script language="javascript" type="text/javascript" defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <script language="javascript" type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script language="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script language="javascript" type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <style>
+       
+    .product-mota{
+      color: #999999;
+    }
+    /* #wrapper.active{
+    filter: blur(3px);
+    } */
+
+    </style>
+    <!-- <script>================== Này để làm mờ và hiện div thông tin sản phẩm====================================
+      function detail_product(){
+        document.getElementById('detail_product').style.display = 'block';
+      } 
+      function toggle_background(){
+        var blur = document.getElementById('wrapper');
+        blur.classList.toggle('active');
+        var detail_product = document.getElementById('detail_product');
+        detail_product.classList.toggle('active');
+      }
+    </script>
+
+    <script>
+      function all_detail_product(){
+        detail_product();
+        toggle_background();
+      } 
+    </script> -->
+
+    <!-- <script>
+      window.addEventListener('mouseup',function(event){
+          var box = document.getElementById('detail_product');
+          if(event.target != box && event.target.parentNode != box){
+            $("div").removeClass("active");
+              box.style.display = 'none';
+          }
+      });
+    </script> -->
+</head>
+<body style="background-color: #17191b;">
+
+     <div id="wrapper" >
+            <div id="toggle" class="sticky-md-top sticky-sm-top">
+              <i class="fas fa-bars"></i>
+            </div>
+             <!--====================================== Menu ====================================== -->
+            <div id="bao_menu" class="sticky-md-top" >
+              <div id="nav-menu" class="container">
+                <div id="main-menu" class="row ">
+                    <div class="col-md-2 button" >
+                        <span></span><span></span><span></span><span></span>
+                        LOGO
+                    </div>
+                    <div class="col-md-1 button" >
+                      <span></span><span></span><span></span><span></span>
+                      LAPTOP
+                    </div>
+                    <div class="col-md-1 button">
+                      <span></span><span></span><span></span><span></span>
+                      PC
+                    </div>
+                    <div class="col-md-2 button">
+                      <span></span><span></span><span></span><span></span>
+                      GAMING GEAR
+                    </div>
+                    <div class="col-md-2 button">
+                      <span></span><span></span><span></span><span></span>
+                      MONITOR
+                    </div>
+                    <div class="col-md-2 button">
+                      <span></span><span></span><span></span><span></span>
+                      SUPPORT
+                    </div>
+                    <div class="col-md-1 button" id="user">
+                        <img src="./img/user.png" />
+                    </div>
+                    <div class="col-md-1 button" id="cart">
+                        <img src="./img/pngwing.com.png" />
+                    </div>
+                </div>
+             </div>
+            </div>
+            
+            <!--====================================== Nav bảo hành====================================== -->
+            <div id="nav" class="container" style="background-color: #17191b;color: #ffffff;height: 47px;">
+                <div id="main-baohanh" class="row">
+                      <div class="thanh_huongdan col-md-2 " > THÔNG TIN MÙA DỊCH
+                      </div>
+                      <div class="thanh_huongdan col-md-2 "> HƯỚNG DẪN THANH TOÁN
+                      </div>
+                      <div class="thanh_huongdan col-md-2 "> HƯỚNG DẪN TRẢ GÓP
+                      </div>
+                      <div class="thanh_huongdan col-md-2 "> CHÍNH SÁCH BẢO HÀNH
+                      </div>
+                      <div class="thanh_huongdan col-md-2 "> CHÍNH SÁCH VẬN CHUYỂN
+                      </div>
+              </div>
+           </div>
+      
+            <!--====================================== Slide ảnh ====================================== -->
+            <!-- Wrapper for slides -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top: 0px;">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+              </ol>
+           
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+           
+                <div class="item active">
+                  <img src="./img/254795590_420333926346100_7355988065095911575_n.png" alt="Los Angeles" style="width:100%;">
+                  <div class="carousel-caption">
+                    <h3>Los Angeles</h3>
+                    <p>LA is always so much fun!</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="https://assets2.razerzone.com/images/pnx.assets/808cc002620878e5b9bdd0edceb0ed1b/razer-blade-14-laptop-desktop-hero.jpg" alt="Chicago" style="width:100%;">
+                  <div class="carousel-caption">
+                    <h3>Razer</h3>
+                    <p>Thank you !!!</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="https://assets2.razerzone.com/images/pnx.assets/e0ffd6312c5948a020eca3f8a77f876e/razer-blade-14-laptop-desktop-usp8-responsive.jpg" alt="New York" style="width:100%;">
+                  <div class="carousel-caption">
+                    <h3>New York</h3>
+                    <p>We love the Big Apple!</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="https://assets2.razerzone.com/images/pnx.assets/351796a62196ff97ca0ed3f5f9991662/razer-blade-14-laptop-desktop-usp2.jpg" alt="Chicago" style="width:100%;">
+                  <div class="carousel-caption">
+                    <h3>Chicago</h3>
+                    <p>Thank you, Chicago!</p>
+                  </div>
+                </div>
+              
+                <div class="item">
+                  <img src="./img/255370662_607494957352757_1532891503197535571_n.png" alt="New York" style="width:100%;">
+                  <div class="carousel-caption">
+                    <h3>New York</h3>
+                    <p>We love the Big Apple!</p>
+                  </div>
+                </div>
+            
+              </div>
+           
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+
+              <!--====================================== Content ====================================== -->
+              <body >
+                <div class = "products">
+                    <div class = "container">
+                        <h1 class = "lg-title">Special Product With Offers</h1>
+                        <p class = "text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos sit consectetur, ipsa voluptatem vitae necessitatibus dicta veniam, optio, possimus assumenda laudantium. Temporibus, quis cum.</p>
+        
+                        <div class = "product-items">
+                            <!-- single product -->
+                            <div class = "product">
+                                <div class = "product-content">
+                                    <div class = "product-img">
+                                        <img src = "https://assets3.razerzone.com/XMN26bXo5qAe343cxRxcQscG8bY=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fha6%2Fh11%2F9208511594526%2F500x500-blade15-may2021-fhd.png" alt = "product image">
+                                    </div>
+                        <!--============================= Còn hàng =========================== -->
+                                    <!-- <div class = "product-btns">
+                                        <button type ="button"  class = "btn-cart"> add to cart    
+                                            <span><i class = "fas fa-plus"></i></span>
+                                        </button>
+                                        <button type ="button"   class = "btn-buy"> buy now
+                                            <span><i class = "fas fa-shopping-cart"></i></span>
+                                        </button>
+                                    </div> -->
+                        <!--============================= Hết hàngg =========================== -->
+                                    <div class = "product-btns-hethang">
+                                      <div  class = "product-btns-hethang1"> hết hàng   
+                                          <span><i class='bx bxs-message-alt-error'></i></span>
+                                      </div>
+                                  </div>
+
+                                </div>
+        
+                                <div class = "product-info">
+                                    <div class = "product-info-top">
+                                        <h2 class = "sm-title">lifestyle</h2>
+
+                                    </div>
+                                    <a  onclick="all_detail_product();" class = "product-name">Laptop Asus Vivobook A415EA EB360T</a>
+
+                                    <p class = "product-price">$ 150.00</p>
+                                    <p class = "product-price">$ 133.00</p>
+                                </div>
+        
+                                <div class = "off-info">
+                                    <h1 class = "sm-title">New</h1>
+                                </div>
+                            </div>
+                            <!-- end of single product -->
+                            <!-- single product -->
+                            <div class = "product">
+                              <div class = "product-content">
+                                  <div class = "product-img">
+                                      <img src = "https://assets3.razerzone.com/XMN26bXo5qAe343cxRxcQscG8bY=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fha6%2Fh11%2F9208511594526%2F500x500-blade15-may2021-fhd.png" alt = "product image">
+                                  </div>
+                                  <div class = "product-btns">
+                                      <button type ="button"  class = "btn-cart"> add to cart    
+                                          <span><i class = "fas fa-plus"></i></span>
+                                      </button>
+                                      <button type ="button"   class = "btn-buy"> buy now
+                                          <span><i class = "fas fa-shopping-cart"></i></span>
+                                      </button>
+                                  </div>
+                              </div>
+      
+                              <div class = "product-info">
+                                  <div class = "product-info-top">
+                                      <h2 class = "sm-title">lifestyle</h2>
+
+                                  </div>
+                                  <a  onclick="all_detail_product();" class = "product-name">Laptop Asus Vivobook A415EA EB360T</a>
+
+                                  <p class = "product-price">$ 150.00</p>
+                                  <p class = "product-price">$ 133.00</p>
+                              </div>
+      
+                              <div class = "off-info">
+                                  <h1 class = "sm-title">New</h1>
+                              </div>
+                          </div>
+                            <!-- end of single product -->
+                            <!-- single product -->
+                            <div class = "product">
+                                <div class = "product-content">
+                                    <div class = "product-img">
+                                        <img src = "https://assets3.razerzone.com/RbqZAPmW1MYJcCUC1ZHKdwt5R3Y=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh59%2Fh1f%2F9004662095902%2Frz09-03304e42-r3u1.png" alt = "product image">
+                                    </div>
+                                    <div class = "product-btns">
+                                        <button type = "button" class = "btn-cart"> add to cart
+                                            <span><i class = "fas fa-plus"></i></span>
+                                        </button>
+                                        <button type = "button" class = "btn-buy"> buy now
+                                            <span><i class = "fas fa-shopping-cart"></i></span>
+                                        </button>
+                                    </div>
+                                </div>
+        
+                                <div class = "product-info">
+                                    <div class = "product-info-top">
+                                        <h2 class = "sm-title">lifestyle</h2>
+                                        <div class = "rating">
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "far fa-star"></i></span>
+                                        </div>
+                                    </div>
+                                    <a onclick="all_detail_product();" class = "product-name">mens shoes DN 23XX, new product</a>
+                                    <p class = "product-price">$ 150.00</p>
+                                    <p class = "product-price">$ 133.00</p>
+                                </div>
+                            </div>
+                            <!-- end of single product -->
+                            <!-- single product -->
+                            <div class = "product">
+                                <div class = "product-content">
+                                    <div class = "product-img">
+                                        <img src = "https://static.acer.com/up/Resource/Acer/Laptops/Porsche_Design_Acer_Book_RS/Images/20201012/Porsche-Design-Acer-Book-RS_AP714-51_modelpreview.png" alt = "product image">
+                                    </div>
+                                    <div class = "product-btns">
+                                        <button type = "button" class = "btn-cart"> add to cart
+                                            <span><i class = "fas fa-plus"></i></span>
+                                        </button>
+                                        <button type = "button" class = "btn-buy"> buy now
+                                            <span><i class = "fas fa-shopping-cart"></i></span>
+                                        </button>
+                                    </div>
+                                </div>
+        
+                                <div class = "product-info">
+                                    <div class = "product-info-top">
+                                        <h2 class = "sm-title">lifestyle</h2>
+                                        <div class = "rating">
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "far fa-star"></i></span>
+                                        </div>
+                                    </div>
+                                    <a href = "#" class = "product-name">mens shoes DN 23XX, new product</a>
+                                    <p class = "product-price">$ 150.00</p>
+                                    <p class = "product-price">$ 133.00</p>
+                                </div>
+        
+                                <div class = "off-info">
+                                    <h2 class = "sm-title">25% off</h2>
+                                </div>
+                            </div>
+                            <!-- end of single product -->
+                            <!-- single product -->
+                            <div class = "product">
+                                <div class = "product-content">
+                                    <div class = "product-img">
+                                        <img src = "https://static.acer.com/up/Resource/Acer/Laptops/Nitro_7/Images/20200703/Acer-Nitro-7_AN715-52_RGB-KB_modelpreview.png" alt = "product image">
+                                    </div>
+                                    <div class = "product-btns">
+                                        <button type = "button" class = "btn-cart"> add to cart
+                                            <span><i class = "fas fa-plus"></i></span>
+                                        </button>
+                                        <button type = "button" class = "btn-buy"> buy now
+                                            <span><i class = "fas fa-shopping-cart"></i></span>
+                                        </button>
+                                    </div>
+                                </div>
+        
+                                <div class = "product-info">
+                                    <div class = "product-info-top">
+                                        <h2 class = "sm-title">lifestyle</h2>
+                                        <div class = "rating">
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "far fa-star"></i></span>
+                                        </div>
+                                    </div>
+                                    <a href = "#" class = "product-name">womens shoes DN 23XX, new product</a>
+                                    <p class = "product-price">$ 150.00</p>
+                                    <p class = "product-price">$ 133.00</p>
+                                </div>
+                            </div>
+                            <!-- end of single product -->
+                            <!-- single product -->
+                            <div class = "product">
+                                <div class = "product-content">
+                                    <div class = "product-img">
+                                        <img src = "https://dlcdnwebimgs.asus.com/gain/BD26C0A3-4C64-4A85-834E-39BF866C5517/w717/h525/w220" alt = "product image">
+                                    </div>
+                                    <div class = "product-btns">
+                                        <button type = "button" class = "btn-cart"> add to cart
+                                            <span><i class = "fas fa-plus"></i></span>
+                                        </button>
+                                        <button type = "button" class = "btn-buy"> buy now
+                                            <span><i class = "fas fa-shopping-cart"></i></span>
+                                        </button>
+                                    </div>
+                                </div>
+        
+                                <div class = "product-info">
+                                    <div class = "product-info-top">
+                                        <h2 class = "sm-title">lifestyle</h2>
+                                        <div class = "rating">
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "far fa-star"></i></span>
+                                        </div>
+                                    </div>
+                                    <a href = "#" class = "product-name">womens shoes DN 23XX, new product</a>
+                                    <p class = "product-price">$ 150.00</p>
+                                    <p class = "product-price">$ 133.00</p>
+                                </div>
+                            </div>
+                            <!-- end of single product -->
+                            <!-- single product -->
+                            <div class = "product">
+                                <div class = "product-content">
+                                    <div class = "product-img">
+                                        <img src = "https://static.gigabyte.com/StaticFile/Image/Global/8f991b6d836ea944f259113f588dd2f4/Product/28142/webp/400" alt = "product image">
+                                    </div>
+                                    <div class = "product-btns">
+                                        <button type = "button" class = "btn-cart"> add to cart
+                                            <span><i class = "fas fa-plus"></i></span>
+                                        </button>
+                                        <button type = "button" class = "btn-buy"> buy now
+                                            <span><i class = "fas fa-shopping-cart"></i></span>
+                                        </button>
+                                    </div>
+                                </div>
+        
+                                <div class = "product-info">
+                                    <div class = "product-info-top">
+                                        <h2 class = "sm-title">lifestyle</h2>
+                                        <div class = "rating">
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "far fa-star"></i></span>
+                                        </div>
+                                    </div>
+                                    <a href = "#" class = "product-name">womens shoes DN 23XX, new product</a>
+                                    <p class = "product-price">$ 150.00</p>
+                                    <p class = "product-price">$ 133.00</p>
+                                </div>
+                            </div>
+                            <!-- end of single product -->
+                            <!-- single product -->
+                            <div class = "product">
+                                <div class = "product-content">
+                                    <div class = "product-img">
+                                        <img src = "https://static.gigabyte.com/StaticFile/Image/Global/d6530da099859cdb9b2414bc02ef467f/Product/29894/webp/400" alt = "product image">
+                                    </div>
+                                    <div class = "product-btns">
+                                        <button type = "button" class = "btn-cart"> add to cart
+                                            <span><i class = "fas fa-plus"></i></span>
+                                        </button>
+                                        <button type = "button" class = "btn-buy"> buy now
+                                            <span><i class = "fas fa-shopping-cart"></i></span>
+                                        </button>
+                                    </div>
+                                </div>
+        
+                                <div class = "product-info">
+                                    <div class = "product-info-top">
+                                        <h2 class = "sm-title">lifestyle</h2>
+                                        <div class = "rating">
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "fas fa-star"></i></span>
+                                            <span><i class = "far fa-star"></i></span>
+                                        </div>
+                                    </div>
+                                    <a href = "#" class = "product-name">womens shoes DN 23XX, new product</a>
+                                    <p class = "product-price">$ 150.00</p>
+                                    <p class = "product-price">$ 133.00</p>
+                                </div>
+        
+                                <div class = "off-info">
+                                    <h2 class = "sm-title">35% off</h2>
+                                </div>
+                            </div>
+                            <!-- end of single product -->
+                        </div>
+                    </div>
+                </div>
+        
+                <div class = "product-collection">
+                    <div class = "container">
+                        <div class = "product-collection-wrapper">
+                            <!-- product col left -->
+                            <div class = "product-col-left flex">
+                                <div class = "product-col-content">
+                                    <h2 class = "sm-title">men's shoes </h2>
+                                    <h2 class = "md-title">men's collection </h2>
+                                    <p class = "text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae consequatur facilis eligendi quibusdam voluptatibus exercitationem autem voluptatum, beatae architecto odit, quisquam repellat. Deleniti, architecto ab.</p>
+                                    <button type = "button" class = "btn-dark">Shop now</button>
+                                </div>
+                            </div>
+        
+                            <!-- product col right -->
+                            <div class = "product-col-right">
+                                <div class = "product-col-r-top flex">
+                                    <div class = "product-col-content">
+                                        <h2 class = "sm-title">women's dresses </h2>
+                                        <h2 class = "md-title">women's collection </h2>
+                                        <p class = "text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae consequatur facilis eligendi quibusdam voluptatibus exercitationem autem voluptatum, beatae architecto odit, quisquam repellat. Deleniti, architecto ab.</p>
+                                        <button type = "button" class = "btn-dark">Shop now</button>
+                                    </div>
+                                </div>
+        
+                                <div class = "product-col-r-bottom">
+                                    <!-- left -->
+                                    <div class = "flex">
+                                        <div class = "product-col-content">
+                                            <h2 class = "sm-title">summer sale </h2>
+                                            <h2 class = "md-title">Extra 50% Off </h2>
+                                            <p class = "text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae consequatur facilis eligendi quibusdam voluptatibus exercitationem autem voluptatum, beatae architecto odit, quisquam repellat. Deleniti, architecto ab.</p>
+                                            <button type = "button" class = "btn-dark">Shop now</button>
+                                        </div>
+                                    </div>
+                                    <!-- right -->
+                                    <div class = "flex">
+                                        <div class = "product-col-content">
+                                            <h2 class = "sm-title">shoes </h2>
+                                            <h2 class = "md-title">best sellers </h2>
+                                            <p class = "text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae consequatur facilis eligendi quibusdam voluptatibus exercitationem autem voluptatum, beatae architecto odit, quisquam repellat. Deleniti, architecto ab.</p>
+                                            <button type = "button" class = "btn-dark">Shop now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </body>
+              <!--====================================== Footer====================================== -->
+              
+            <footer class="text-center text-lg-start bg-dark text-muted">
+                <!-- Section: Social media -->
+                <section
+                  class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+                >
+                  <!-- Left -->
+                  <div class="me-5 d-none d-lg-block">
+                    <span>Get connected with us on social networks:</span>
+                  </div>
+                  <!-- Left -->
+
+                  <!-- Right -->
+                  <div>
+                    <a href="" class="me-4 text-reset">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                      <i class="fab fa-google"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                  <!-- Right -->
+                </section>
+                <!-- Section: Social media -->
+
+                <!-- Section: Links  -->
+                <section class="">
+                  <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                      <!-- Grid column -->
+                      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                          <i class="fas fa-gem me-3"></i>Company name
+                        </h6>
+                        <p>
+                          Here you can use rows and columns to organize your footer content. Lorem ipsum
+                          dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                      </div>
+                      <!-- Grid column -->
+
+                      <!-- Grid column -->
+                      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                          Products
+                        </h6>
+                        <p>
+                          <a href="#!" class="text-reset">Angular</a>
+                        </p>
+                        <p>
+                          <a href="#!" class="text-reset">React</a>
+                        </p>
+                        <p>
+                          <a href="#!" class="text-reset">Vue</a>
+                        </p>
+                        <p>
+                          <a href="#!" class="text-reset">Laravel</a>
+                        </p>
+                      </div>
+                      <!-- Grid column -->
+
+                      <!-- Grid column -->
+                      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                          Useful links
+                        </h6>
+                        <p>
+                          <a href="#!" class="text-reset">Pricing</a>
+                        </p>
+                        <p>
+                          <a href="#!" class="text-reset">Settings</a>
+                        </p>
+                        <p>
+                          <a href="#!" class="text-reset">Orders</a>
+                        </p>
+                        <p>
+                          <a href="#!" class="text-reset">Help</a>
+                        </p>
+                      </div>
+                      <!-- Grid column -->
+
+                      <!-- Grid column -->
+                      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                          Contact
+                        </h6>
+                        <p><i class="fas fa-home me-3"></i> HO CHI MINH, HCM 700000, VIETNAM</p>
+                        <p>
+                          <i class="fas fa-envelope me-3"></i>
+                          info@example.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 03 2833 2195</p>
+                        <p><i class="fas fa-print me-3"></i> </p>
+                      </div>
+                      <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                  </div>
+                </section>
+                <!-- Section: Links  -->
+
+                <!-- Copyright -->
+                <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                  Thank you for visiting us !
+                </div>
+                <!-- Copyright -->
+              </footer>
+              <!-- Footer -->
+              
+
+
+        </div>
+        <!--====================== Bảng chi tiết sản phẩm đã đượck xử lý ===============================
+          <div id="detail_product" class="detail_product product-info ">
+          <h2>MỘT THUỞ YÊU NGƯỜI (LOFI MUSIC) - VICKY NHUNG</h2>
+          <p>*Bài hát "Một Thuở Yêu Người" sẽ mở đầu cho Dự án Chill With Vicky Nhung (season 2) gồm 5 ca khúc được ra mắt vào 20h tối thứ 7 hàng tuần. Nếu Season 1 là những ca khúc do Vicky sáng tác và thể hiện trên nền Piano nhẹ nhàng sâu lắng, thì season 2 là những bản tình ca da diết của mối tình đầy phong sương, của mảng ký ức đau lòng tưởng đã lãng quên, được làm mới lại theo phong cách lofi hiện đại.
+            Ký Ức - Memory cũng chính là chủ đề của season lần này, Vicky mong rằng sẽ có thể đưa mọi người quay về miền ký ức ngày đó, để nhớ ta từng có những ngày yêu nồng nàn đến thế! 
+            * Cảm ơn Góc Của Tùng, cảm ơn khán giả yêu nhạc và những người bạn đã hết mình hỗ trợ Vicky trong dự án này.  Enjoy nhé mọi người ^_^. Đừng quên Like và Share để tiếp thêm động lực cho Vicky tạo ra những sản phẩm tuyệt vời hơn nữa nhé  (◍•ᴗ•◍)❤!</p>
+            <a  onclick="toggle_background();"> Close</a>
+         </div> -->
+         <script>
+          $(document).ready(function() {
+            $('#toggle').click(function() {
+                $('#nav-menu').slideToggle();
+            });
+        })
+          
+        </script>
+</body>
+</html>

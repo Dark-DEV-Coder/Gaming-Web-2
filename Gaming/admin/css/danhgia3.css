@@ -1,0 +1,101 @@
+.dg{
+    width: 95%;
+    /* height: 100%; */
+    background-color: #E4E9F7;
+    /* background-color: red; */
+}
+
+.tieudedg{
+    margin-top: 50px;
+    text-align: center;    
+}
+.tieudedg div{
+    font-size: 30px;
+    font-weight: 700;
+}
+.timkiemdg{
+    margin-top: 40px;
+    margin-left: 2%;
+}
+#kieutimkiemdg{
+    margin-top: 10px;
+}
+.div1{
+   font-size: 18px;
+   text-align: center;
+   padding-top: 5px;
+}
+#hiendg{
+    margin-top: 100px;
+}
+.bangdg{
+    border: solid 1px rgb(82, 68, 68);
+    margin-left: 1%;
+}
+.bangdg thead tr th{
+    text-align: center;
+}
+.tbdg1{
+    width: 10%;
+}
+.tbdg2{
+    width: 20%;
+}
+.tbdg3{
+    width: 15%;
+}
+.tbdg4{
+    width: 15%;
+}
+.tbdg5{
+    width: 10%;
+}
+.suaxoadg a{
+    font-size: 30px;
+}
+.bangdg tbody tr .suaxoadg{
+    text-align: center;
+    padding-top: 15px;
+}
+.bangdg tbody tr .dg1{
+    text-align: center;
+}
+.phantrangdg{
+    text-align: center;
+    height: 50px;
+}
+.phantrangdg1 div{
+    display:  inline-table;
+    margin-left: 1%;
+    border: solid 1px black;
+    width: 5%;
+}
+.phantrangdg1 div:hover{
+    background-color: #0dcaf0;
+    cursor: pointer;
+    color: rgb(22, 184, 22);
+}
+.pagemenuhide {
+    display: none !important;
+}
+#themdg a{
+    text-decoration: none;
+    color: black;
+}
+.themdg{
+    margin-top: 50px;
+}
+.div2{
+    padding-left: 3%;
+    font-size: 18px;
+}
+.div3{
+    margin-top: 10px;
+}
+.div4{
+    margin-top: 20px;
+}
+.div5{
+    margin-top: 40px;
+    text-align: center;
+}

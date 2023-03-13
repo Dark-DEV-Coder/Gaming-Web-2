@@ -1,0 +1,101 @@
+.tk{
+    width: 95%;
+    /* height: 100%; */
+    background-color: #E4E9F7;
+    /* background-color: red; */
+}
+
+.tieudetk{
+    margin-top: 50px;
+    text-align: center;    
+}
+.tieudetk div{
+    font-size: 30px;
+    font-weight: 700;
+}
+.timkiemtk{
+    margin-top: 40px;
+    margin-left: 2%;
+}
+#kieutimkiemtk{
+    margin-top: 10px;
+}
+.div1{
+   font-size: 18px;
+   text-align: center;
+   padding-top: 5px;
+}
+#hientk{
+    margin-top: 100px;
+}
+.bangtk{
+    border: solid 1px rgb(82, 68, 68);
+    margin-left: 1%;
+}
+.bangtk thead tr th{
+    text-align: center;
+}
+.tbtk1{
+    width: 10%;
+}
+.tbtk2{
+    width: 15%;
+}
+.tbtk3{
+    width: 20%;
+}
+.tbtk4{
+    width: 10%;
+}
+.suaxoatk a{
+    font-size: 30px;
+}
+.bangtk tbody tr .suaxoatk{
+    text-align: center;
+    padding-top: 15px;
+}
+.bangtk tbody tr .tk1{
+    text-align: center;
+}
+.phantrangtk{
+    text-align: center;
+    height: 50px;
+}
+.phantrangtk1 div{
+    display:  inline-table;
+    margin-left: 1%;
+    border: solid 1px black;
+    width: 5%;
+}
+.phantrangtk1 div:hover{
+    background-color: #0dcaf0;
+    cursor: pointer;
+}
+.pagemenuhide {
+    display: none !important;
+}
+#themtk a{
+    text-decoration: none;
+    color: black;
+}
+.themtk{
+    margin-top: 50px;
+}
+.div2{
+    padding-left: 3%;
+    font-size: 18px;
+}
+.div3{
+    margin-top: 10px;
+}
+.div4{
+    margin-top: 20px;
+}
+.div5{
+    margin-top: 40px;
+    text-align: center;
+}
+.divicon a i{
+    font-size: 25px;
+    padding-top: 15px;
+}

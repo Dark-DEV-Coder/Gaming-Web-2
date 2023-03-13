@@ -1,0 +1,111 @@
+.qtk{
+    width: 95%;
+    /* height: 100%; */
+    background-color: #E4E9F7;
+    /* background-color: red; */
+}
+
+.tieudeqtk{
+    margin-top: 50px;
+    text-align: center;    
+}
+.tieudeqtk div{
+    font-size: 30px;
+    font-weight: 700;
+}
+.timkiemqtk{
+    margin-top: 40px;
+    margin-left: 2%;
+}
+#kieutimkiemqtk{
+    margin-top: 10px;
+}
+.div1{
+   font-size: 18px;
+   text-align: center;
+   padding-top: 5px;
+}
+#hienqtk{
+    margin-top: 100px;
+}
+.bangqtk{
+    border: solid 1px rgb(82, 68, 68);
+    margin-left: 1%;
+}
+.bangqtk thead tr th{
+    text-align: center;
+}
+.tbqtk1{
+    width: 10%;
+}
+.tbqtk2{
+    width: 25%;
+}
+.tbqtk3{
+    width: 10%;
+}
+
+.suaxoaqtk a{
+    font-size: 30px;
+}
+.bangqtk tbody tr .suaxoaqtk{
+    text-align: center;
+    padding-top: 15px;
+}
+.bangqtk tbody tr .qtk1{
+    text-align: center;
+}
+.phantrangqtk{
+    text-align: center;
+    height: 50px;
+}
+.phantrangqtk1 div{
+    display:  inline-table;
+    margin-left: 1%;
+    border: solid 1px black;
+    width: 5%;
+}
+.phantrangqtk1 div:hover{
+    background-color: #0dcaf0;
+    cursor: pointer;
+}
+.pagemenuhide {
+    display: none !important;
+}
+#themqtk a{
+    text-decoration: none;
+    color: black;
+}
+.themqtk{
+    margin-top: 50px;
+}
+.div2{
+    padding-left: 3%;
+    font-size: 18px;
+}
+.div3{
+    margin-top: 10px;
+}
+.div4{
+    margin-top: 20px;
+}
+.div5{
+    margin-top: 40px;
+    text-align: center;
+}
+.tieudechucnang{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.chucnang{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.chucnang input{
+    width: 20px;
+    height: 20px;
+}
+.chucnang1{
+    margin-top: 30px;
+}

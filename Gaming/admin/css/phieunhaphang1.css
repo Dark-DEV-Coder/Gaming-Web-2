@@ -1,0 +1,100 @@
+.pnh{
+    width: 95%;
+    /* height: 100%; */
+    background-color: #E4E9F7;
+    /* background-color: red; */
+}
+
+.tieudepnh{
+    margin-top: 50px;
+    text-align: center;    
+}
+.tieudepnh div{
+    font-size: 30px;
+    font-weight: 700;
+}
+.timkiempnh{
+    margin-top: 40px;
+    margin-left: 2%;
+}
+#kieutimkiempnh{
+    margin-top: 10px;
+}
+.div1{
+   font-size: 18px;
+   text-align: center;
+   padding-top: 5px;
+}
+#hienpnh{
+    margin-top: 100px;
+}
+.bangpnh{
+    border: solid 1px rgb(82, 68, 68);
+    margin-left: 1%;
+}
+.bangpnh thead tr th{
+    text-align: center;
+}
+.tbpnh1{
+    width: 10%;
+}
+.tbpnh2{
+    width: 15%;
+}
+.tbpnh3{
+    width: 10%;
+}
+.tbpnh4{
+    width: 10%;
+}
+.tbpnh5{
+    width: 15%;
+}
+.suaxoapnh a{
+    font-size: 30px;
+}
+.bangpnh tbody tr .suaxoapnh{
+    text-align: center;
+    padding-top: 15px;
+}
+.bangpnh tbody tr .pnh1{
+    text-align: center;
+}
+.phantrangpnh{
+    text-align: center;
+    height: 50px;
+}
+.phantrangpnh1 div{
+    display:  inline-table;
+    margin-left: 1%;
+    border: solid 1px black;
+    width: 5%;
+}
+.phantrangpnh1 div:hover{
+    background-color: #0dcaf0;
+    cursor: pointer;
+}
+.pagemenuhide {
+    display: none !important;
+}
+#thempnh a{
+    text-decoration: none;
+    color: black;
+}
+.thempnh{
+    margin-top: 50px;
+}
+.div2{
+    padding-left: 3%;
+    font-size: 18px;
+}
+.div3{
+    margin-top: 10px;
+}
+.div4{
+    margin-top: 20px;
+}
+.div5{
+    margin-top: 40px;
+    text-align: center;
+}

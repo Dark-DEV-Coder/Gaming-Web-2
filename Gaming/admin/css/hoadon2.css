@@ -1,0 +1,109 @@
+.hd{
+    width: 95%;
+    /* height: 100%; */
+    background-color: #E4E9F7;
+    /* background-color: red; */
+}
+
+.tieudehd{
+    margin-top: 50px;
+    text-align: center;    
+}
+.tieudehd div{
+    font-size: 30px;
+    font-weight: 700;
+}
+.timkiemhd{
+    margin-top: 40px;
+    margin-left: 2%;
+}
+#kieutimkiemhd{
+    margin-top: 10px;
+}
+.div1{
+   font-size: 18px;
+   text-align: center;
+   padding-top: 5px;
+}
+#hienhd{
+    margin-top: 100px;
+}
+.banghd{
+    border: solid 1px rgb(82, 68, 68);
+    margin-left: 1%;
+}
+.banghd thead tr th{
+    text-align: center;
+}
+.tbhd1{
+    width: 10%;
+}
+.tbhd2{
+    width: 25%;
+}
+.tbhd3{
+    width: 15%;
+}
+.tbhd4{
+    width: 15%;
+}
+.tbhd5{
+    width: 15%;
+}
+.tbhd6{
+    width: 10%;
+}
+.suaxoahd a{
+    font-size: 30px;
+}
+.banghd tbody tr .suaxoahd{
+    text-align: center;
+    padding-top: 15px;
+}
+.banghd tbody tr .hd1{
+    text-align: center;
+}
+.phantranghd{
+    text-align: center;
+    height: 50px;
+}
+.phantranghd1 div{
+    display:  inline-table;
+    margin-left: 1%;
+    border: solid 1px black;
+    width: 5%;
+}
+.phantranghd1 div:hover{
+    background-color: #0dcaf0;
+    cursor: pointer;
+    color: rgb(22, 184, 22);
+}
+.pagemenuhide {
+    display: none !important;
+}
+#themhd a{
+    text-decoration: none;
+    color: black;
+}
+.themhd{
+    margin-top: 50px;
+}
+.div2{
+    padding-left: 3%;
+    font-size: 18px;
+}
+.div3{
+    margin-top: 10px;
+}
+.div4{
+    margin-top: 20px;
+}
+.div5{
+    margin-top: 40px;
+    text-align: center;
+}
+#tongtienhd{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,97 @@
+.nsx{
+    width: 95%;
+    /* height: 100%; */
+    background-color: #E4E9F7;
+    /* background-color: red; */
+}
+
+.tieudensx{
+    margin-top: 50px;
+    text-align: center;    
+}
+.tieudensx div{
+    font-size: 30px;
+    font-weight: 700;
+}
+.timkiemnsx{
+    margin-top: 40px;
+    margin-left: 2%;
+}
+#kieutimkiemnsx{
+    margin-top: 10px;
+}
+.div1{
+   font-size: 18px;
+   text-align: center;
+   padding-top: 5px;
+}
+#hiennsx{
+    margin-top: 100px;
+}
+.bangnsx{
+    border: solid 1px rgb(82, 68, 68);
+    margin-left: 1%;
+}
+.bangnsx thead tr th{
+    text-align: center;
+}
+.tbnsx1{
+    width: 10%;
+}
+.tbnsx2{
+    width: 20%;
+}
+.tbnsx3{
+    width: 10%;
+}
+.tbnsx4{
+    width: 10%;
+}
+.suaxoansx a{
+    font-size: 30px;
+}
+.bangnsx tbody tr .suaxoansx{
+    text-align: center;
+    padding-top: 15px;
+}
+.bangnsx tbody tr .nsx1{
+    text-align: center;
+}
+.phantrangnsx{
+    text-align: center;
+    height: 50px;
+}
+.phantrangnsx1 div{
+    display:  inline-table;
+    margin-left: 1%;
+    border: solid 1px black;
+    width: 5%;
+}
+.phantrangnsx1 div:hover{
+    background-color: #0dcaf0;
+    cursor: pointer;
+}
+.pagemenuhide {
+    display: none !important;
+}
+#themnsx a{
+    text-decoration: none;
+    color: black;
+}
+.themnsx{
+    margin-top: 50px;
+}
+.div2{
+    padding-left: 3%;
+    font-size: 18px;
+}
+.div3{
+    margin-top: 10px;
+}
+.div4{
+    margin-top: 20px;
+}
+.div5{
+    margin-top: 40px;
+    text-align: center;
+}

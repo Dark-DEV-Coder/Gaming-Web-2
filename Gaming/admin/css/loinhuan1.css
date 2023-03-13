@@ -1,0 +1,98 @@
+.ln{
+    width: 95%;
+    /* height: 100%; */
+    background-color: #E4E9F7;
+    /* background-color: red; */
+}
+
+.tieudeln{
+    margin-top: 50px;
+    text-align: center;    
+}
+.tieudeln div{
+    font-size: 30px;
+    font-weight: 700;
+}
+.timkiemln{
+    margin-top: 40px;
+    margin-left: 2%;
+}
+#kieutimkiemln{
+    margin-top: 10px;
+}
+.div1{
+   font-size: 18px;
+   text-align: center;
+   padding-top: 5px;
+}
+#hienln{
+    margin-top: 100px;
+}
+.bangln{
+    border: solid 1px rgb(82, 68, 68);
+    margin-left: 1%;
+}
+.bangln thead tr th{
+    text-align: center;
+}
+.tbln1{
+    width: 10%;
+}
+.tbln2{
+    width: 25%;
+}
+.tbln3{
+    width: 10%;
+}
+.tbln4{
+    width: 10%;
+}
+
+.suaxoaln a{
+    font-size: 30px;
+}
+.bangln tbody tr .suaxoaln{
+    text-align: center;
+    padding-top: 15px;
+}
+.bangln tbody tr .ln1{
+    text-align: center;
+}
+.phantrangln{
+    text-align: center;
+    height: 50px;
+}
+.phantrangln1 div{
+    display:  inline-table;
+    margin-left: 1%;
+    border: solid 1px black;
+    width: 5%;
+}
+.phantrangln1 div:hover{
+    background-color: #0dcaf0;
+    cursor: pointer;
+}
+.pagemenuhide {
+    display: none !important;
+}
+#themln a{
+    text-decoration: none;
+    color: black;
+}
+.themln{
+    margin-top: 50px;
+}
+.div2{
+    padding-left: 3%;
+    font-size: 18px;
+}
+.div3{
+    margin-top: 10px;
+}
+.div4{
+    margin-top: 20px;
+}
+.div5{
+    margin-top: 40px;
+    text-align: center;
+}

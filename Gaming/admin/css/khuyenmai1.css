@@ -1,0 +1,101 @@
+.km{
+    width: 95%;
+    /* height: 100%; */
+    background-color: #E4E9F7;
+    /* background-color: red; */
+}
+
+.tieudekm{
+    margin-top: 50px;
+    text-align: center;    
+}
+.tieudekm div{
+    font-size: 30px;
+    font-weight: 700;
+}
+.timkiemkm{
+    margin-top: 40px;
+    margin-left: 2%;
+}
+#kieutimkiemkm{
+    margin-top: 10px;
+}
+.div1{
+   font-size: 18px;
+   text-align: center;
+   padding-top: 5px;
+}
+#hienkm{
+    margin-top: 100px;
+}
+.bangkm{
+    border: solid 1px rgb(82, 68, 68);
+    margin-left: 1%;
+}
+.bangkm thead tr th{
+    text-align: center;
+}
+.tbkm1{
+    width: 25%;
+}
+.tbkm2{
+    width: 10%;
+}
+.tbkm3{
+    width: 10%;
+}
+.tbkm4{
+    width: 15%;
+}
+.tbkm5{
+    width: 15%;
+}
+.suaxoakm a{
+    font-size: 30px;
+}
+.bangkm tbody tr .suaxoakm{
+    text-align: center;
+    padding-top: 15px;
+}
+.bangkm tbody tr .km1{
+    text-align: center;
+}
+.phantrangkm{
+    text-align: center;
+    height: 50px;
+}
+.phantrangkm1 div{
+    display:  inline-table;
+    margin-left: 1%;
+    border: solid 1px black;
+    width: 5%;
+}
+.phantrangkm1 div:hover{
+    background-color: #0dcaf0;
+    cursor: pointer;
+    color: rgb(22, 184, 22);
+}
+.pagemenuhide {
+    display: none !important;
+}
+#themkm a{
+    text-decoration: none;
+    color: black;
+}
+.themkm{
+    margin-top: 50px;
+}
+.div2{
+    padding-left: 3%;
+    font-size: 18px;
+}
+.div3{
+    margin-top: 10px;
+}
+.div4{
+    margin-top: 20px;
+}
+.div5{
+    margin-top: 40px;
+    text-align: center;
+}

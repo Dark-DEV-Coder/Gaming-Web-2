@@ -1,0 +1,109 @@
+.sp{
+    width: 95%;
+    /* height: 100%; */
+    background-color: #E4E9F7;
+    /* background-color: red; */
+}
+
+.tieudesp{
+    margin-top: 50px;
+    text-align: center;    
+}
+.tieudesp div{
+    font-size: 30px;
+    font-weight: 700;
+}
+.timkiemsp{
+    margin-top: 40px;
+    margin-left: 2%;
+}
+#kieutimkiemsp{
+    margin-top: 10px;
+}
+.div1{
+   font-size: 18px;
+   text-align: center;
+   padding-top: 5px;
+}
+#hiensp{
+    margin-top: 100px;
+}
+.bangsp{
+    border: solid 1px rgb(82, 68, 68);
+    margin-left: 1%;
+}
+.bangsp thead tr th{
+    text-align: center;
+}
+.bangsp tbody tr .imgsp{
+    text-align: center;   
+}
+.bangsp tbody tr td img{
+    width: 30%;
+    height: 30%;    
+}
+.tbsp1{
+    width: 10%;
+}
+.tbsp2{
+    width: 35%;
+}
+.tbsp3{
+    width: 30%;
+}
+.tbsp4{
+    width: 10%;
+}
+.tbsp5{
+    width: 10%;
+}
+.suaxoasp a{
+    font-size: 30px;
+}
+.bangsp tbody tr .suaxoasp{
+    text-align: center;
+    padding-top: 50px;
+}
+.phantrangsp{
+    text-align: center;
+    height: 50px;
+}
+.phantrangsp1 div{
+    display: inline-table;
+    margin-left: 1%;
+    border: solid 1px black;
+    width: 5%;
+}
+.phantrangsp1 div:hover{
+    background-color: #0dcaf0;
+    cursor: pointer;
+}
+.pagemenuhide {
+    display: none !important;
+}
+#themsp a{
+    text-decoration: none;
+    color: black;
+}
+.themsp{
+    margin-top: 50px;
+}
+.div2{
+    padding-left: 3%;
+    font-size: 18px;
+}
+.div3{
+    margin-top: 10px;
+}
+.div4{
+    margin-top: 20px;
+}
+.div5{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.div2 img{
+    width: 90%;
+    height: 90%;
+}
